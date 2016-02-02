@@ -1,0 +1,91 @@
+ul {
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  list-style-type: none;
+  background-color: gray;
+  float: right;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+#apps-icon {
+  height: 20px;
+  width: 20px;
+}
+
+#noti-icon {
+  height: 20px;
+  width: 20px;
+}
+
+#main {
+  height: 96px;
+  width: 296px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#text {
+  height: 25px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+input {
+  float: center;
+  text-align: center; 
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto; 
+  margin-bottom: auto;
+  
+}
+
+.button {
+  text-align: center;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#search-button {
+  display: inline-block;
+}
+
+#lucky-button {
+  display: inline-block
+}
+
+#left-footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
